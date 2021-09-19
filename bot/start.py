@@ -51,12 +51,12 @@ async def start(_, m: Message):
                         "🌐 Terms & Condition", callback_data="cbinfo")
                 ], [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/FallenAngel_xD),
+                        "💬 Group", url="https://t.me/VeezSupportGroup"),
                     InlineKeyboardButton(
-                        "📣 Channel", url="https://t.me/FallenAngel_xD")
+                        "📣 Channel", url="https://t.me/levinachannel")
                 ], [
                     InlineKeyboardButton(
-                        "👩🏻‍💻 Developer", url="https://t.me/FallenAngel_xD")
+                        "👩🏻‍💻 Developer", url="https://t.me/dlwrml")
                 ], [
                     InlineKeyboardButton(
                         "📚 All Command List", callback_data="cblist")
@@ -90,10 +90,10 @@ async def alive(_, m: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "✨ Group", url=f"https://t.me/FallenAngel_xD"
+                        "✨ Group", url=f"https://t.me/VeezSupportGroup"
                     ),
                     InlineKeyboardButton(
-                        "📣 Channel", url=f"https://t.me/FallenAngel_xD"
+                        "📣 Channel", url=f"https://t.me/levinachannel"
                     )
                 ]
             ]
