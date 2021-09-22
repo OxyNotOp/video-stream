@@ -41,7 +41,7 @@ jobs:
            python-version: 3.9
        - name: cloning repo and install
 
-         continue-on-error: tr
+         continue-on-error: true
          run: |
            sudo apt -qq update && sudo apt -qq install -y --no-install-recommends ffmpeg neofetch
            pip3 install -r requirements.txt
